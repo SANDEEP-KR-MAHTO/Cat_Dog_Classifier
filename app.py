@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load model
-model = load_model("cat_dog_model.h5")
+model = load_model("cat_dog_mobilenetv2.h5")
 
 # Preprocess image
 def preprocess_image(image):
