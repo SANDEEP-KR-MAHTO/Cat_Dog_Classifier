@@ -25,7 +25,7 @@ This project is an **end-to-end deep learning image classification system** that
 ## 📸 Demo
 
 Try the live app:  
-👉 [https://catdogclassifier.streamlit.app](https://catdogclassifier.streamlit.app)
+👉 [[https://catdogclassifier.streamlit.app](https://catdogclassifier-6ef46xmhsznkjpmoy6e2q4.streamlit.app/)]
 
 ## 🛠️ Installation
 
@@ -47,10 +47,10 @@ git clone https://github.com/SANDEEP-KR-MAHTO/Cat_Dog_Classifier.git cd Cat_Dog_
     - Dense(1, activation='sigmoid')
 
 ## 📊 Results
-Metric	Value
-Accuracy	95%+
-Loss	Low
-Overfitting	Controlled via dropout & fine-tuning
+- Metric	Value
+- Accuracy	95%+
+- Loss	Low
+- Overfitting	Controlled via dropout & fine-tuning
 
 ## 📌 Requirements
 - tensorflow
