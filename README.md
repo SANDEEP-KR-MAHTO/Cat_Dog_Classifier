@@ -19,3 +19,52 @@ This project is an **end-to-end deep learning image classification system** that
 - ├── requirements.txt # Python dependencies
 - ├── README.md # Project documentation
 - └── sample_images/ # Example test images
+
+
+
+## 📸 Demo
+
+Try the live app:  
+👉 [https://catdogclassifier.streamlit.app](https://catdogclassifier.streamlit.app)
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
+
+git clone https://github.com/SANDEEP-KR-MAHTO/Cat_Dog_Classifier.git cd Cat_Dog_Classifier
+
+## 🧠 Model Architecture
+- Base Model: MobileNetV2 (pre-trained on ImageNet)
+
+- Layers Added:
+
+    - GlobalAveragePooling2D
+
+    - Dense(64, activation='relu')
+
+    - Dropout
+
+    - Dense(1, activation='sigmoid')
+
+## 📊 Results
+Metric	Value
+Accuracy	95%+
+Loss	Low
+Overfitting	Controlled via dropout & fine-tuning
+
+## 📌 Requirements
+- tensorflow
+- keras
+- numpy
+- pillow
+- matplotlib
+- streamlit
+
+
+## 🤝 Acknowledgements
+- TensorFlow & Keras
+
+- Streamlit for deployment
+
+- Kaggle for dataset inspiration
+
