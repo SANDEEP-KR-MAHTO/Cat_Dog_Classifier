@@ -14,8 +14,7 @@ This project is an **end-to-end deep learning image classification system** that
 
 - Cat_Dog_Classifier/
 - ├── app.py # Streamlit web app
-- ├── cat_dog_model.pkl # Saved model (Pickle format)
-- ├── model.h5 # Saved model (Keras format)
+- ├── cat_dog_mobilenetv2.tflite # Saved model
 - ├── requirements.txt # Python dependencies
 - ├── README.md # Project documentation
 - └── sample_images/ # Example test images
@@ -47,10 +46,10 @@ git clone https://github.com/SANDEEP-KR-MAHTO/Cat_Dog_Classifier.git cd Cat_Dog_
     - Dense(1, activation='sigmoid')
 
 ## 📊 Results
-- Metric	    Value
-- Accuracy	    95%+
-- Loss	        Low
-- Overfitting	Controlled via dropout & fine-tuning
+- Metric	    #Value
+- Accuracy	    #95%+
+- Loss	        #Low
+- Overfitting	#Controlled via dropout & fine-tuning
 
 ## 📌 Requirements
 - tensorflow
