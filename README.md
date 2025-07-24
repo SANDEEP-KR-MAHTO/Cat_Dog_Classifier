@@ -12,10 +12,10 @@ This project is an **end-to-end deep learning image classification system** that
 
 ## 📂 Project Structure
 
-Cat_Dog_Classifier/
-├── app.py # Streamlit web app
-├── cat_dog_model.pkl # Saved model (Pickle format)
-├── model.h5 # Saved model (Keras format)
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── sample_images/ # Example test images
+- Cat_Dog_Classifier/
+- ├── app.py # Streamlit web app
+- ├── cat_dog_model.pkl # Saved model (Pickle format)
+- ├── model.h5 # Saved model (Keras format)
+- ├── requirements.txt # Python dependencies
+- ├── README.md # Project documentation
+- └── sample_images/ # Example test images
