@@ -47,9 +47,9 @@ git clone https://github.com/SANDEEP-KR-MAHTO/Cat_Dog_Classifier.git cd Cat_Dog_
     - Dense(1, activation='sigmoid')
 
 ## 📊 Results
-- Metric	Value
-- Accuracy	95%+
-- Loss	Low
+- Metric	    Value
+- Accuracy	    95%+
+- Loss	        Low
 - Overfitting	Controlled via dropout & fine-tuning
 
 ## 📌 Requirements
